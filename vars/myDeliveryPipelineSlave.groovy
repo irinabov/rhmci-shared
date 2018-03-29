@@ -9,7 +9,7 @@ def call(body) {
         // our complete declarative pipeline can go in here
         agent {
             node {
-                label ${pipelineParams.agent}
+                label "${pipelineParams.agent}"
             }
         }
 
